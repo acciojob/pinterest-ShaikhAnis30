@@ -1,6 +1,7 @@
 /*  your css code here. If applicable */
 img{
 	width:60%;
+	background-size:cover;
 }
 
 .hero{
@@ -8,11 +9,11 @@ img{
 	align-items:center;
 }
 
-h2{
+h1{
 	margin:20px;
 }
 
-p,h2,button{
+p,h1,button{
 	margin:0;
 	padding:12px;
 	text-align:center;
@@ -27,10 +28,11 @@ p,h2,button{
 	padding:15px;
 }
 
-button{
+.button{
 	background-color:red;
 	color:white;
 	border-radius:3px;
+	text-decoration:none;
+	padding:10px;
 }
-
 
